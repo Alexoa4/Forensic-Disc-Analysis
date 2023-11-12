@@ -21,14 +21,14 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 - Prepare SBAR Report.
 
 <h2>Examine a Compromised Host's Memory with Volatility and Atom</h3>
-- Investigate Process (with pslist, psscan, and pstree)
-- inspect Network Activity (with netscan) 
+- Investigate Process (with pslist, psscan, and pstree) <br>
+- inspect Network Activity (with netscan) <br>
 - Identify Ramnit Injected DLLs
 
 <h3>Conduct a Forensic Disk Examination with autopsy</h3>
-- Get started with Autopsy
-- Explore the Filesystem
-- Investigate within Autopsy
+- Get started with Autopsy <br>
+- Explore the Filesystem <br>
+- Investigate within Autopsy <br>
 -Extract and Analyze Registry Hiv using Registry Explorer.
 
 <h2>Tools and Technologies Used</h2>

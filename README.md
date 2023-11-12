@@ -25,7 +25,7 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 - inspect Network Activity (with netscan) <br>
 - Identify Ramnit Injected DLLs
 
-<h3>Conduct a Forensic Disk Examination with autopsy</h3>
+<h2>Conduct a Forensic Disk Examination with autopsy</h2>
 - Get started with Autopsy <br>
 - Explore the Filesystem <br>
 - Investigate within Autopsy <br>

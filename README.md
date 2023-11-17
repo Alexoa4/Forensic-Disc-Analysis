@@ -32,8 +32,8 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 - URLs <br>
 - IP Address.
 <p>Initial Access Method:</p>
-- Since the Email has no attachments, & no sneaky malicious URLs—it appears that the methods of attack are limited to web-based threats like forms of drive-by compromise that target a user's browser.
-- Since only one foreign domain is cited in the email, we search for all web traffic in the SIEM associated with the www[.]ciso[.]guide domain. <br>
+Since the Email has no attachments, & no sneaky malicious URLs—it appears that the methods of attack are limited to web-based threats like forms of drive-by compromise that target a user's browser.
+Since only one foreign domain is cited in the email, we search for all web traffic in the SIEM associated with the www[.]ciso[.]guide domain. <br>
 
 <p>Profling the Log Source: </p>
 
@@ -61,7 +61,7 @@ Applying OSINT to the investigation <br>
  Investigate Process (with pslist, psscan, and pstree) <br>
 <img src="" height="80%" width="80%" alt=""/>
 
-inspect Network Activity (with netscan) <br>
+Inspect Network Activity (with netscan) <br>
 <img src="" height="80%" width="80%" alt=""/>
 
 Identify Ramnit Injected DLLs: <br>

@@ -24,18 +24,19 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 
 <h2>Investigate an Incident Using a SIEM</h2>
 <p>We are to identify whether the  email received by AT-USA employee is benign or has malicious intent, then use the SIEM to validate whatever hypotheses we might be able to glean from the threat.</p>
-<b></b><p>Starter Pivots: </p> <br>
+<b><p>Starter Pivots: </p></b>b> <br>
 - TimeStamps <br>
 - Email Address <br>
 - Internal Domain <br>
 - Username formatting <br> 
 - URLs <br>
 - IP Address.
-<p>Initial Access Method:</p>
-Since the Email has no attachments, & no sneaky malicious URLs—it appears that the methods of attack are limited to web-based threats like forms of drive-by compromise that target a user's browser.
-Since only one foreign domain is cited in the email, we search for all web traffic in the SIEM associated with the www[.]ciso[.]guide domain. <br>
 
-<p>Profling the Log Source: </p>
+<b>Initial Access Method:</p></b>
+Since the Email has no attachments, & no sneaky malicious URLs—it appears that the methods of attack are limited to web-based threats like forms of drive-by compromise that target a user's browser.<br>
+Also since only one foreign domain is cited in the email, we search for all web traffic in the SIEM associated with the www[.]ciso[.]guide domain. <br>
+
+<b>Profiling the Log Source:</p></b>
 
 <img src="" height="80%" width="80%" alt=""/>
 

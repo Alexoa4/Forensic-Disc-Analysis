@@ -16,9 +16,24 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 
 
 <h2>Project Roadmap</h2>
+- Investigate an Incident Using a SIEM <br>
 - Examine a Compromised Host's Memory <br>
 - Conduct a Forensic Disk Examination <br>
 - Prepare SBAR Report.
+
+<h2>Investigate an Incident Using a SIEM</h2>
+<p>We are to identify whether the  email received by AT-USA employee is benign or has malicious intent, then use the SIEM to validate whatever hypotheses we might be able to glean from the threat.</p>
+<b></b><p>Starter Pivots: </p> <br>
+- TimeStamps <br>
+- Email Address <br>
+- Internal Domain <br>
+- Username formatting <br> 
+- URLs <br>
+- IP Address.
+<p>Initial Access Method:</p>
+- Since the Email has no attachments, & no sneaky malicious URLs—it appears that the methods of attack are limited to web-based threats like forms of drive-by compromise that target a user's browser.
+- Since only one foreign domain is cited in the email, we search for all web traffic in the SIEM associated with the www[.]ciso[.]guide domain. 
+
 
 <h2>Examine a Compromised Host's Memory with Volatility and Atom</h3>
 - Investigate Process (with pslist, psscan, and pstree) <br>

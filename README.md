@@ -17,6 +17,7 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 
 <h2>Project Roadmap</h2>
 - Investigate an Incident Using a SIEM <br>
+- Hunting down information on Malware using OSNIT <br>
 - Examine a Compromised Host's Memory <br>
 - Conduct a Forensic Disk Examination <br>
 - Prepare SBAR Report.

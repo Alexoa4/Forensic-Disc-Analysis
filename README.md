@@ -32,13 +32,41 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 - IP Address.
 <p>Initial Access Method:</p>
 - Since the Email has no attachments, & no sneaky malicious URLs—it appears that the methods of attack are limited to web-based threats like forms of drive-by compromise that target a user's browser.
-- Since only one foreign domain is cited in the email, we search for all web traffic in the SIEM associated with the www[.]ciso[.]guide domain. 
+- Since only one foreign domain is cited in the email, we search for all web traffic in the SIEM associated with the www[.]ciso[.]guide domain. <br>
+
+<p>Profling the Log Source: </p>
+
+<img src="" height="80%" width="80%" alt=""/>
+
+<h2>Hunting down information on Malware using OSNIT</h2>
+
+Getting a bird's-eye view of the malware sample using Virus Total <br>
+<img src="" height="80%" width="80%" alt=""/>
+
+ Use a Sandbox to perform hybrid analysis <br>
+<img src="" height="80%" width="80%" alt=""/>
+
+ Dig in deeper using threat intelligence <br>
+<img src="" height="80%" width="80%" alt=""/>
+
+Applying OSINT to the investigation <br>
+<img src="" height="80%" width="80%" alt=""/>
+
+
 
 
 <h2>Examine a Compromised Host's Memory with Volatility and Atom</h3>
-- Investigate Process (with pslist, psscan, and pstree) <br>
-- inspect Network Activity (with netscan) <br>
-- Identify Ramnit Injected DLLs
+
+ Investigate Process (with pslist, psscan, and pstree) <br>
+<img src="" height="80%" width="80%" alt=""/>
+
+inspect Network Activity (with netscan) <br>
+<img src="" height="80%" width="80%" alt=""/>
+
+Identify Ramnit Injected DLLs: <br>
+
+There are three injected DLLs involved with Ramnit: rmnsoft.dll, modules.dll, and hooker.dll.
+
 
 <h2>Conduct a Forensic Disk Examination with autopsy</h2>
 - Get started with Autopsy <br>

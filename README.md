@@ -24,7 +24,7 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 
 <h2>Investigate an Incident Using a SIEM</h2>
 <p>We are to identify whether the  email received by AT-USA employee is benign or has malicious intent, then use the SIEM to validate whatever hypotheses we might be able to glean from the threat.</p>
-<b><p>Starter Pivots: </p></b>b> <br>
+<b><p>Starter Pivots: </p></b> <br>
 - TimeStamps <br>
 - Email Address <br>
 - Internal Domain <br>

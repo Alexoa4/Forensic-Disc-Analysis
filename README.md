@@ -1,5 +1,7 @@
 
 <h1>Cyber Defense Project 2</h1>
+<h2> Project Summary </h2>
+<p>In this project, I will be investigating Ramnit Malware. Ramnit was initially detected in early 2010 and later evolved into W32.Ramnit. B, is a worm known for spreading through removable drives. Notably, its operators have continuously upgraded the threat by integrating modules from the leaked source code of the Zeus banking Trojan in May 2011. Presently, Ramnit concentrates on information theft, specifically targeting passwords and online banking login credentials. The malware also installs remote access tools to establish and maintain backdoor connectivity. The Ramnit botnet is estimated to have compromised approximately 350,000 computers worldwide.</p>
 
 
 <h3>Project Scenario</h3>
@@ -60,11 +62,6 @@ For instance, google search provided a 2015 whitepaper from Symantec as well as 
 <img src="https://i.imgur.com/GWWwSDO.png" height="80%" width="80%" alt=""/>
 <img src="https://i.imgur.com/QjVXq3U.png" height="80%" width="80%" alt=""/>
 <img src="https://i.imgur.com/XJEZSq9.png" height="80%" width="80%" alt=""/>
-
-
-<b>Applying OSINT to the investigation </b><br>
-
-<img src="" height="80%" width="80%" alt=""/>
 
 
 

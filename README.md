@@ -45,8 +45,8 @@ Also since only one foreign domain is cited in the email, we search for all web 
 Getting a bird's-eye view of the malware sample using Virus Total <br>
 <img src="" height="80%" width="80%" alt=""/>
 
- Use a Sandbox to perform hybrid analysis <br>
-<img src="" height="80%" width="80%" alt=""/>
+ Using a Sandbox (Any.Run) to perform dynamic/hybrid analysis on Ramnit Malware Payload, bilo400.exe <br>
+<img src="https://i.imgur.com/glNSO83.png" height="80%" width="80%" alt=""/>
 
  Dig in deeper using threat intelligence <br>
 <img src="" height="80%" width="80%" alt=""/>

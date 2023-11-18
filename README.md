@@ -38,12 +38,12 @@ Also since only one foreign domain is cited in the email, we search for all web 
 
 <b>Profiling the Log Source:</p></b>
 
-<img src="" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/TikET9r.png" height="80%" width="80%" alt=""/>
 
 <h2>Hunting down information on Malware using OSNIT</h2>
 
 Getting a bird's-eye view of the malware sample using Virus Total <br>
-<img src="" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/tzGy1Ys.png" height="80%" width="80%" alt=""/>
 
  Using a Sandbox (Any.Run) to perform dynamic/hybrid analysis on Ramnit Malware Payload, bilo400.exe <br>
 <img src="https://i.imgur.com/glNSO83.png" height="80%" width="80%" alt=""/>

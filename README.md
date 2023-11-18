@@ -46,13 +46,17 @@ Also since only one foreign domain is cited in the email, we search for all web 
 
 <img src="https://i.imgur.com/tzGy1Ys.png" height="80%" width="80%" alt=""/>
 
- Using a Sandbox (Any.Run) to perform dynamic/hybrid analysis on Ramnit Malware Payload, bilo400.exe <br>
+
+<b> Using a Sandbox (Any.Run) to perform dynamic/hybrid analysis on Ramnit Malware Payload, bilo400.exe </b><br>
+
 <img src="https://i.imgur.com/glNSO83.png" height="80%" width="80%" alt=""/>
 
- Dig in deeper using threat intelligence <br>
+<b> Dig in deeper using threat intelligence </b><br>
+
 <img src="" height="80%" width="80%" alt=""/>
 
-Applying OSINT to the investigation <br>
+<b>Applying OSINT to the investigation </b><br>
+
 <img src="" height="80%" width="80%" alt=""/>
 
 
@@ -60,13 +64,15 @@ Applying OSINT to the investigation <br>
 
 <h2>Examine a Compromised Host's Memory with Volatility and Atom</h3>
 
- Investigate Process (with pslist, psscan, and pstree) <br>
+ <b>Investigate Process (with pslist, psscan, and pstree) <b/><br>
+ 
 <img src="" height="80%" width="80%" alt=""/>
 
-Inspect Network Activity (with netscan) <br>
+<b>Inspect Network Activity (with netscan) </b><br>
+
 <img src="" height="80%" width="80%" alt=""/>
 
-Identify Ramnit Injected DLLs: <br>
+<b>Identify Ramnit Injected DLLs: </b><br>
 
 There are three injected DLLs involved with Ramnit: rmnsoft.dll, modules.dll, and hooker.dll.
 

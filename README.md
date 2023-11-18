@@ -86,13 +86,13 @@ There are three injected DLLs involved with Ramnit: rmnsoft.dll, modules.dll, an
 <h2>Conduct a Forensic Disk Examination with autopsy</h2>
 
 
-- Getting Started with Autopsy: Explore the Filesystem <br>
+ Getting Started with Autopsy: Explore the Filesystem <br>
 
 
 <img src="https://i.imgur.com/DGOe5OY.png" height="80%" width="80%" alt=""/>
 
 
-- Getting  started with Registry Explorer: Extracting Hives in Temp Folder <br>
+Getting  started with Registry Explorer: Extracting Hives in Temp Folder <br>
 
 
 <img src="https://i.imgur.com/I01xPoW.png" height="80%" width="80%" alt=""/>

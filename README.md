@@ -42,7 +42,8 @@ Also since only one foreign domain is cited in the email, we search for all web 
 
 <h2>Hunting down information on Malware using OSNIT</h2>
 
-Getting a bird's-eye view of the malware sample using Virus Total <br>
+<b>Getting a bird's-eye view of the malware sample using Virus Total </b><br>
+
 <img src="https://i.imgur.com/tzGy1Ys.png" height="80%" width="80%" alt=""/>
 
  Using a Sandbox (Any.Run) to perform dynamic/hybrid analysis on Ramnit Malware Payload, bilo400.exe <br>

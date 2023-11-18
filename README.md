@@ -77,7 +77,7 @@ For instance, google search provided a 2015 whitepaper from Symantec as well as 
 
 <b>Inspect Network Activity (with netscan) </b><br>
 
-<img src="" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/Jy0cq3Y.png" height="80%" width="80%" alt=""/>
 
 <b>Identify Ramnit Injected DLLs: </b><br>
 

@@ -41,7 +41,7 @@ Also since only one foreign domain is cited in the email, we search for all web 
 <b>Profiling the Log Source:</p></b>
 
 https://github.com/Alexoa4/Forensic-Disc-Analysis/issues/1#issue-2204221755
-
+<img src="https://github.com/Alexoa4/Forensic-Disc-Analysis/issues/1#issue-2204221755" height="80%" width="80%" alt=""/>
 <h2>Hunting down information on Malware using OSNIT</h2>
 
 <b>Getting a bird's-eye view of the malware sample using Virus Total </b><br>

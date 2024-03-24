@@ -39,8 +39,7 @@ Since the Email has no attachments, & no sneaky malicious URLs—it appears that
 Also since only one foreign domain is cited in the email, we search for all web traffic in the SIEM associated with the www[.]ciso[.]guide domain. <br>
 
 <b>Profiling the Log Source:</p></b>
-
-<img src="https://github.com/Alexoa4/Forensic-Disc-Analysis/issues/1#issue-2204221755.png" height="80%" width="80%" alt=""/>
+![Firewall](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/21a9848f-330a-425f-8433-f264766358bb)
 <h2>Hunting down information on Malware using OSNIT</h2>
 
 <b>Getting a bird's-eye view of the malware sample using Virus Total </b><br>

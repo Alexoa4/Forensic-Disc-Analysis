@@ -44,7 +44,7 @@ Also since only one foreign domain is cited in the email, we search for all web 
 
 <b>Getting a bird's-eye view of the malware sample using Virus Total </b><br>
 
-<img src="https://i.imgur.com/tzGy1Ys.png" height="80%" width="80%" alt=""/>
+![VT](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/fb461a6c-95c9-449d-9230-a9372b96056e)
 
 
 <b> Using a Sandbox (Any.Run) to perform dynamic/hybrid analysis on Ramnit Malware Payload, bilo400.exe </b><br>

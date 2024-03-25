@@ -48,7 +48,7 @@ Also since only one foreign domain is cited in the email, we search for all web 
 ![VT](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/fb461a6c-95c9-449d-9230-a9372b96056e)
 
 
-<b> Using a Sandbox (Any.Run) to perform dynamic/hybrid analysis on Ramnit Malware Payload, bilo400.exe </b><br>
+<b> <h2>Using a Sandbox (Any.Run) to perform dynamic/hybrid analysis on Ramnit Malware Payload, bilo400.exe </h2></b><br>
 
 
 ![any run](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/2dc5d425-0286-41b8-a105-cff692d3a414)<br>

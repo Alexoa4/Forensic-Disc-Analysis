@@ -52,7 +52,12 @@ Also since only one foreign domain is cited in the email, we search for all web 
 
 <img src="https://i.imgur.com/glNSO83.png" height="80%" width="80%" alt=""/>
 
-<b> Dig in deeper using threat intelligence </b><br>
+<b> <h3>Review the Ramnit IOCs from ANY.RUN sandbox</h3><br>
+<p>In many instances Suspicious network activity can reveal a lot about a malware attack. Suspicious source IPs and suspicious destination IPs are easy to identify with external research. At this juncture, we start our investigation with an IP address IOC—the most suspicious IP address found during the original Splunk investigation was 194.87.109.183.
+
+Starting with the memory image and the netscan memory module, we observed a connection from IP 194.87.109.183 to . Also, the review of the ANY.RUN sandbox page showed there was a process after a reboot:</p>
+
+<b> Digging deeper using threat intelligence </b><br>
 <p> Once I discovered the type of malware variant I was dealing with, I researched the internet to see what others had written about it. At this time I came across two whitepapers about the Ramnit malware. <br>
 For instance, google search provided a 2015 whitepaper from Symantec as well as a late 2017 reverse engineering write-up from CERT.PL. as linked below:</p> <br>
  -[Cert.PL](https://cert.pl/en/posts/2017/09/ramnit-in-depth-analysis/). <br>

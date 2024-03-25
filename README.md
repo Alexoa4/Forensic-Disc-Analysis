@@ -61,13 +61,13 @@ Starting with the memory image and the netscan memory module, we observed a conn
 <b> Digging deeper using threat intelligence </b><br>
 <p> Once I discovered the type of malware variant I was dealing with, I researched the internet to see what others had written about it. At this time I came across two whitepapers about the Ramnit malware. <br>
 For instance, google search provided a 2015 whitepaper from Symantec as well as a late 2017 reverse engineering write-up from CERT.PL. as linked below:</p> <br>
- -[Cert.PL](https://cert.pl/en/posts/2017/09/ramnit-in-depth-analysis/). <br>
- -[Symantec Whitepaper](https://informationsecurity.report/Resources/Whitepapers/b201d876-c5df-486d-975e-2dc08eb85f02_W32.Ramnit%20analysis.pdf)
 
- 
-<img src="https://i.imgur.com/GWWwSDO.png" height="80%" width="80%" alt=""/>
-<img src="https://i.imgur.com/QjVXq3U.png" height="80%" width="80%" alt=""/>
-<img src="https://i.imgur.com/XJEZSq9.png" height="80%" width="80%" alt=""/>
+<b> <h2>The links below lead to the two whitepapers on Ramnit Malware by Symantec and Mitchat Praszmo</h2>
+ -[Cert.PL](https://cert.pl/en/posts/2017/09/ramnit-in-depth-analysis/). <br>
+ -[Symantec Whitepaper](https://informationsecurity.report/Resources/Whitepapers/b201d876-c5df-486d-975e-2dc08eb85f02_W32.Ramnit%20analysis.pdf)<br>
+
+ <h3>Images of the whitepapers are shown below</h3>
+
 
 
 

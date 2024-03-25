@@ -38,7 +38,7 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 Since the Email has no attachments, & no sneaky malicious URLs—it appears that the methods of attack are limited to web-based threats like forms of drive-by compromise that target a user's browser.<br>
 Also since only one foreign domain is cited in the email, we search for all web traffic in the SIEM associated with the www[.]ciso[.]guide domain. <br>
 
-<b>Profiling the Log Source:</p></b>
+<b><h2>Profiling the Log Source:</h2></p></b>
 ![Firewall](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/21a9848f-330a-425f-8433-f264766358bb) <br>
 
 <h2>Hunting down information on Malware using OSNIT</h2>

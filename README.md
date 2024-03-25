@@ -79,7 +79,7 @@ For instance, google search provided a 2015 whitepaper from Symantec as well as 
 
 <h2>Examine a Compromised Host's Memory with Volatility and Atom</h2><br>
 
-<h2>ramnit Malware Footprint</h2>
+<h2>Ramnit Malware Footprint</h2>
 
  <b>Investigate Process (with pslist, psscan, and pstree) <b/><br>
  ![pstree](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/51e5e442-cc5e-4a4d-8ee9-7f42c275af95)

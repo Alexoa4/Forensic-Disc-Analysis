@@ -79,11 +79,11 @@ For instance, google search provided a 2015 whitepaper from Symantec as well as 
 
 <h2>Examine a Compromised Host's Memory with Volatility and Atom</h3>
 
-<img src="https://i.imgur.com/6rvtSdZ.png" height="80%" width="80%" alt=""/>
-
  <b>Investigate Process (with pslist, psscan, and pstree) <b/><br>
- 
-<img src="https://i.imgur.com/yydvbwp.png" height="80%" width="80%" alt=""/>
+ ![pstree](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/51e5e442-cc5e-4a4d-8ee9-7f42c275af95)
+![evidence](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/26871396-320c-4b8e-a307-859d88b1c134)
+![Splunk logs] (https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/aedbfae0-4929-43e3-8579-1d9b8da0ee44)
+![sysmon log] (https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/854d68a0-9051-48e1-93ce-23757e4456d3)
 
 <b>Inspect Network Activity (with netscan) </b><br>
 

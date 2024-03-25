@@ -50,7 +50,7 @@ Also since only one foreign domain is cited in the email, we search for all web 
 
 <b> Using a Sandbox (Any.Run) to perform dynamic/hybrid analysis on Ramnit Malware Payload, bilo400.exe </b><br>
 
-<img src="https://i.imgur.com/glNSO83.png" height="80%" width="80%" alt=""/>
+![any run](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/2dc5d425-0286-41b8-a105-cff692d3a414)
 
 <b> <h3>Review the Ramnit IOCs from ANY.RUN sandbox</h3><br>
 <p>In many instances Suspicious network activity can reveal a lot about a malware attack. Suspicious source IPs and suspicious destination IPs are easy to identify with external research. At this juncture, we start our investigation with an IP address IOC—the most suspicious IP address found during the original Splunk investigation was 194.87.109.183.

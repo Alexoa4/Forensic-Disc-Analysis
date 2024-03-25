@@ -66,7 +66,12 @@ For instance, google search provided a 2015 whitepaper from Symantec as well as 
  -[Cert.PL](https://cert.pl/en/posts/2017/09/ramnit-in-depth-analysis/). <br>
  -[Symantec Whitepaper](https://informationsecurity.report/Resources/Whitepapers/b201d876-c5df-486d-975e-2dc08eb85f02_W32.Ramnit%20analysis.pdf)<br>
 
- <h3>Images of the whitepapers are shown below</h3>
+ <h3>Images of the whitepapers are shown below:</h3> <br>
+
+ ![CERT](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/316fad52-f267-4e0e-b236-671feee0083b)<br>
+ 
+![F1](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/ed6a897b-3d6a-43bc-8039-874c8b267716)
+
 
 
 

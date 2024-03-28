@@ -22,7 +22,7 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 - Hunting down information on Malware using OSNIT <br>
 - Examine a Compromised Host's Memory <br>
 - Conduct a Forensic Disk Examination <br>
-- Prepare SBAR Report.
+- Write a comprehensive SBAR Report.
 
 <h2>Investigate an Incident Using a SIEM</h2>
 <p>We are to identify whether the  email received by AT-USA employee is benign or has malicious intent, then use the SIEM to validate whatever hypotheses we might be able to glean from the threat.</p>

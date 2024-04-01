@@ -82,11 +82,22 @@ For instance, google search provided a 2015 whitepaper from Symantec as well as 
 <h2>Ramnit Malware Footprint</h2>
 
  <b>Investigate Process (with pslist, psscan, and pstree) <b/><br>
- <p>In this step, I walked through an investigation of the memory images that focus on suspicious processes. I started by examining the Process list (pslist) which is usually the first place to look carefully after verifying the image profile. Once I  ran pslist, I checked the svchost.exe process since it is a popular hiding place for malware due to how easy it is to secretly add an extra svchost.exe or two without raising eyebrows. Also since svchost.exe has only one legitimate parent: services.exe (PID 500), I looked for a different parent process for svchost.exe. Our memory image shows two svchost.exe (PIDs 4104, 2612) with a PPID that is NOT services.exe (PID 500): At this point, I had to confirm the two rogue svchost.exe's mysterious parent process, (PID 4652) from the SIEM</p>
+ <p>In this step, I walked through an investigation of the memory images that focus on suspicious processes. I started by examining the Process list (pslist) which is usually the first place to look carefully after verifying the image profile. Once I  ran pslist, I checked the svchost.exe process since it is a popular hiding place for malware due to how easy it is to secretly add an extra svchost.exe or two without raising eyebrows. Also since svchost.exe has only one legitimate parent: services.exe (PID 500), I looked for a different parent process for svchost.exe. Our memory image shows two svchost.exe (PIDs 4104, 2612) with a PPID that is NOT services.exe (PID 500): At this point, I had to confirm the two rogue svchost.exe's mysterious parent process, (PID 4652) from the SIEM</p> <br>
+ 
  ![pstree](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/51e5e442-cc5e-4a4d-8ee9-7f42c275af95)
 ![evidence](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/26871396-320c-4b8e-a307-859d88b1c134)
+
+<h3>index=sysmon Computer="Daniel-PC" ProcessId=4652</h3><br>
+<p>And last but not least, we can connect the Unknown process (PID 4652) to a familiar IOC: obommhdf.exe (PID 3764) by looking at its parent_process and ParentProcessId</p>
+
 ![Splunk logs](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/aedbfae0-4929-43e3-8579-1d9b8da0ee44)
 ![sysmon log](https://github.com/Alexoa4/Forensic-Disc-Analysis/assets/105945708/854d68a0-9051-48e1-93ce-23757e4456d3)
+
+<p>So, by pivoting between our two log sources, we can now construct what happened:
+obommhdf.exe (PID 3764) spawned a second instance of the Ramnit executable: xwgrttjl.exe (PID 4652).
+xwgrttjl.exe (PID 4652) then spawned the two rogue processes without the PPID of services.exe (PID 500)!) svchost.exe's: svchost.exe (PID 4104) and svchost.exe (PID 2612).
+xwgrttjl.exe (PID 4652) then exited the process list, having served its function.
+obommhdf.exe (PID 3764), svchost.exe (PID 4104), and svchost.exe (PID 2612) remain running.</p>
 
 <b>Inspect Network Activity (with netscan) </b><br>
 

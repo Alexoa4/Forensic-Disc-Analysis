@@ -101,7 +101,7 @@ obommhdf.exe (PID 3764), svchost.exe (PID 4104), and svchost.exe (PID 2612) rema
 
 
 
-<h2>What just happened?.... In Summary </h2>
+<h2>What just happened?.... In Summary: </h2>
 <p>1. I began this investigation in a memory module where we picked up new IOCs: two rogue svchost.exe processes and a mysterious parent process (PPID) that was done and gone by the time we captured our memory image. 
 
 2. I then moved into Splunk to corroborate those new IOCs. Once inside Splunk, I found our new IOCs and the file name for the mysterious parent process. I also found the PPID for our mysterious parent process in Splunk.

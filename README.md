@@ -1,7 +1,7 @@
 
 <h1>Cyber Defense Project 2</h1>
 <h2> Project Summary </h2>
-<p>In this project, I will be investigating Ramnit Malware. Ramnit was initially detected in early 2010 and later evolved into W32.Ramnit. B, is a worm known for spreading through removable drives. Notably, its operators have continuously upgraded the threat by integrating modules from the leaked source code of the Zeus banking Trojan in May 2011. Presently, Ramnit concentrates on information theft, specifically targeting passwords and online banking login credentials. The malware also installs remote access tools to establish and maintain backdoor connectivity. The Ramnit botnet is estimated to have compromised approximately 350,000 computers worldwide.</p>
+<p>In this project, I will be investigating Ramnit Malware. Ramnit was initially detected in early 2010 and later evolved into W32.Ramnit. B is a worm known for spreading through removable drives. Notably, its operators have continuously upgraded the threat by integrating modules from the leaked source code of the Zeus banking Trojan in May 2011. Presently, Ramnit concentrates on information theft, specifically targeting passwords and online banking login credentials. The malware also installs remote access tools to establish and maintain backdoor connectivity. The Ramnit botnet is estimated to have compromised approximately 350,000 computers worldwide.</p>
 
 
 <h3>Project Scenario</h3>
@@ -25,7 +25,7 @@ I've attached the SBAR report that Boots submitted regarding the incident below.
 - Write a comprehensive SBAR Report.
 
 <h2>Investigate an Incident Using a SIEM</h2>
-<p>We are to identify whether the  email received by AT-USA employee is benign or has malicious intent, then use the SIEM to validate whatever hypotheses we might be able to glean from the threat.</p>
+<p>We are to identify whether the  email received by an AT-USA employee is benign or has malicious intent, then use the SIEM to validate whatever hypotheses we might be able to glean from the threat.</p>
 <b><p>Starter Pivots: </p></b> <br>
 - TimeStamps <br>
 - Email Address <br>
@@ -56,7 +56,7 @@ Also since only one foreign domain is cited in the email, we search for all web 
 <b> <h3>Review the Ramnit IOCs from ANY.RUN sandbox</h3><br>
 <p>In many instances Suspicious network activity can reveal a lot about a malware attack. Suspicious source IPs and suspicious destination IPs are easy to identify with external research. At this juncture, we start our investigation with an IP address IOC—the most suspicious IP address found during the original Splunk investigation was 194.87.109.183.
 
-Starting with the memory image and the netscan memory module, we observed a connection from IP 194.87.109.183 to . Also, the review of the ANY.RUN sandbox page showed there was a process after a reboot:</p>
+Starting with the memory image and the netscan memory module, we observed a connection from IP 194.87.109.183 to Daniel Pc. Also, the review of the ANY.RUN sandbox page showed there was a process after a reboot:</p>
 
 <b> Digging deeper using threat intelligence </b><br>
 <p> Once I discovered the type of malware variant I was dealing with, I researched the internet to see what others had written about it. At this time I came across two whitepapers about the Ramnit malware. <br>
@@ -101,10 +101,10 @@ obommhdf.exe (PID 3764), svchost.exe (PID 4104), and svchost.exe (PID 2612) rema
 
 
 
-<h2>What just happened?.... Summary </h2>
-<p>1. I began this investigation in a memory module where we picked up new IOCs: two rogue svchost.exe processes along with a mysterious parent process (PPID) that was done and gone by the time we captured our memory image. 
+<h2>What just happened?.... In Summary </h2>
+<p>1. I began this investigation in a memory module where we picked up new IOCs: two rogue svchost.exe processes and a mysterious parent process (PPID) that was done and gone by the time we captured our memory image. 
 
-2. I then moved into Splunk to corroborate those new IOCs. Once inside Splunk, I found our new IOCs as well as the file name for the mysterious parent process. I also found the PPID for our mysterious parent process in Splunk.
+2. I then moved into Splunk to corroborate those new IOCs. Once inside Splunk, I found our new IOCs and the file name for the mysterious parent process. I also found the PPID for our mysterious parent process in Splunk.
 
 3. Going back to Volatility, I connected all this new information back to an old IOC from our original Splunk investigation (obommhdf.exe).
 

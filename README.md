@@ -120,8 +120,15 @@ There are three injected DLLs involved with Ramnit: rmnsoft.dll, modules.dll, an
 Getting  started with Registry Explorer: Extracting Hives in Temp Folder <br>
 
 
-<img src="https://i.imgur.com/I01xPoW.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/I01xPoW.png" height="80%" width="80%" alt=""/> <br>
+<h2>What just happened?</h2>
+<p>1. We began this investigation in a memory module where we picked up new IOCs: two rogue svchost.exe processes along with a mysterious parent process (PPID) that was done and gone by the time we captured our memory image. 
 
+2. We then moved into Splunk to corroborate those new IOCs. Once inside Splunk, we found our new IOCs as well as the file name for the mysterious parent process. We also found the PPID for our mysterious parent process in Splunk.
+
+3. Going back to Volatility, we connected all this new information back to an old IOC from our original Splunk investigation (obommhdf.exe).
+
+By going back and forth between Volatility and Splunk, we can corroborate old IOCs, discover new IOCs, corroborate familiar connections between IOCs, and discover new connections between IOCs. </p>
 
 
 
